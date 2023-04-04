@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <title>Block2</title>
-    <!-- <link rel="stylesheet" href="style.css" type="text/css"/> -->
-    <style>
-        body {
+        .body {
             display: grid;
             grid-template-areas:
                 "header header header header"
@@ -28,49 +22,49 @@
             background: white;
         }
 
-        #pageHeader {
+        .pageHeader {
             grid-area: header;
         }
 
-        #pageFooter {
+        .pageFooter {
             grid-area: footer;
         }
 
-        #bannerUser {
+        .bannerUser {
             max-width: 100%;
             object-fit: cover;
         
         }
 
-        #banner {
+        .banner {
             padding-left: 0px;
             padding-top: 0px;
         }
 
-        #mainArticle {
+        .mainArticle {
             padding-top: 0px;
             grid-area: article;
             color: #424551;
 
         }
 
-        #who {
+        .who {
           
         }
 
-        #mainNav {
+        .mainNav {
             padding-left: 0%;
             grid-area: nav;
            
         }
 
-        #dots {
+        .dots {
             max-width: 50%;
             object-fit: cover;
 
         }
 
-        #btnMore {
+        .btnMore {
             grid-area: article;
             background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
             border: none;
@@ -88,7 +82,7 @@
 
         }
 
-        #list {
+        .list {
             list-style-image: url(assets/images/vector.svg);
             font-family: 'Lato';
             font-style: normal;
@@ -97,7 +91,7 @@
             line-height: 160%;
         }
 
-        #siteAds {
+        .siteAds {
             grid-area: ads;
            
         }
@@ -107,54 +101,3 @@
             object-fit: cover;
             grid-row-end: -4;
         } */
-    </style>
-
-
-</head>
-
-
-<body>
-    <!-- Блок 2 -->
-    <div id="pageHeader"></div>
-
-    <div id="banner">
-        <img id="bannerUser" src="assets/images/girl.jpg" alt="girlWithComputer">
-
-    </div>
-
-    <article id="mainArticle">
-    <h6 id="who">WHO WE ARE</h6>
-    <h1 id="why">Why Createx?</h1>
-
-      <ul id="list" type="circle">
-            <li>A fermentum in morbi pretium aliquam adipiscing donec tempus. </li>
-            <li>Vulputate placerat amet pulvinar lorem nisl. </li>
-            <li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
-            <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
-            <li>Tincidunt sagittis neque sem ac eget.</li>
-            <li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
-        </ul>
-        <input id="btnMore" type="button" value="More about us">
-    
-    </article>
-
-
-
-
-    <nav id="mainNav">
-        <img id="dots" src="assets/images/Group.svg" alt="dots">
-    </nav>
-    <div id="siteAds">
-        <!-- <img id="circle1" src="assets/images/circle1.svg"
-        alt="circle1"> -->
-
-        <!-- <img id="circle2" src="assets/images/circle2.svg"
-        alt="circle2"> -->
-
-    </div>
-    <footer id="pageFooter"></footer>
-
-    <!-- Конец блока 2 -->
-</body>
-
-</html>
