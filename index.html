@@ -2,9 +2,13 @@
 <html>
 
 <head>
-    <title>Block2</title>
+    <title>MyProject</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+
+
     <!-- <link rel="stylesheet" href="style.css" type="text/css"/> -->
-    <style>
+    <!-- <style>
         body {
             display: grid;
             grid-template-areas:
@@ -18,15 +22,7 @@
             margin: 0;
         }
 
-        header,
-        footer,
-        banner,
-        article,
-        nav,
-        div {
-            padding: 20px;
-            background: white;
-        }
+       
 
         #pageHeader {
             grid-area: header;
@@ -100,61 +96,127 @@
         #siteAds {
             grid-area: ads;
            
-        }
+        } 
 
-        /* #circle1 {
-            max-width: 50%;
-            object-fit: cover;
-            grid-row-end: -4;
-        } */
-    </style>
+       
+    </style> -->
 
 
 </head>
 
+<!-- Блок 2 -->
 
 <body>
-    <!-- Блок 2 -->
-    <div id="pageHeader"></div>
+    <div class="second">
 
-    <div id="banner">
-        <img id="bannerUser" src="assets/images/girl.jpg" alt="girlWithComputer">
+        <div class="pageHeader"></div>
 
-    </div>
+        <div class="banner">
+            <img class="bannerUser" src="assets/images/girl.jpg" alt="girlWithComputer">
 
-    <article id="mainArticle">
-    <h6 id="who">WHO WE ARE</h6>
-    <h1 id="why">Why Createx?</h1>
+        </div>
 
-      <ul id="list" type="circle">
-            <li>A fermentum in morbi pretium aliquam adipiscing donec tempus. </li>
-            <li>Vulputate placerat amet pulvinar lorem nisl. </li>
-            <li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
-            <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
-            <li>Tincidunt sagittis neque sem ac eget.</li>
-            <li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
-        </ul>
-        <input id="btnMore" type="button" value="More about us">
-    
-    </article>
+        <article class="mainArticle">
+            <h6 id="who">WHO WE ARE</h6>
+            <h1 id="why">Why Createx?</h1>
+
+            <ul id="list">
+                <li>A fermentum in morbi pretium aliquam adipiscing donec tempus. </li>
+                <li>Vulputate placerat amet pulvinar lorem nisl. </li>
+                <li>Consequat feugiat habitant gravida quisque elit bibendum id adipiscing sed.</li>
+                <li>Etiam duis lobortis in fames ultrices commodo nibh.</li>
+                <li>Tincidunt sagittis neque sem ac eget.</li>
+                <li>Ultricies amet justo et eget quisque purus vulputate dapibus tortor.</li>
+            </ul>
+            <input class="btnMore" type="button" value="More about us">
+
+        </article>
 
 
 
 
-    <nav id="mainNav">
-        <img id="dots" src="assets/images/Group.svg" alt="dots">
-    </nav>
-    <div id="siteAds">
-        <!-- <img id="circle1" src="assets/images/circle1.svg"
+        <nav class="mainNav">
+            <img class="dots" src="assets/images/Group.svg" alt="dots">
+        </nav>
+        <div class="siteAds">
+            <!-- <img id="circle1" src="assets/images/circle1.svg"
         alt="circle1"> -->
 
-        <!-- <img id="circle2" src="assets/images/circle2.svg"
+            <!-- <img id="circle2" src="assets/images/circle2.svg"
         alt="circle2"> -->
 
-    </div>
-    <footer id="pageFooter"></footer>
+        </div>
+        <footer class="pageFooter"></footer>
 
+    </div>
     <!-- Конец блока 2 -->
+
+    <!-- Блок 5 -->
+
+    <div class="fifth">
+
+        <div class="events">
+            <h6>
+                OUR EVENTS </h6>
+            <h1 class="lectures">Lectures & workshops</h1>
+
+        </div>
+        <div class="anonses">
+            <div class="anons">
+
+                <p class="number">05</p>
+                <div class="month">August</div>
+
+                <div class="info">Formation of the organizational structure of the company in the face of uncertainty.
+                </div>
+                <div class="view-button">View more</div>
+
+                <div class="time">11:00 – 14:00</div>
+                <div class="online">Onine master-class</div>
+            </div>
+  
+            <div class="anons">
+                <p class="number">24</p>
+                <div class="month">July</div>
+
+                <div class="info">Building a customer service department. Best Practices.
+                </div>
+                <div class="view-button">View more</div>
+
+                <div class="time">11:00 – 12:30</div>
+                <div class="online">Onine master-class</div>
+
+            </div>
+    
+            <div class="anons">
+                <p class="number">16</p>
+                <div class="month">July</div>
+
+                <div class="info">How to apply methods of speculative design in practice. Worldbuilding prototyping.
+                </div>
+                <div class="view-button">View more</div>
+
+                <div class="time">10:00 – 13:00</div>
+                <div class="online">Onine workshop</div>
+
+
+            </div>
+
+        </div>
+        <footer class="exploreEvents">
+            <div class="wantMore">
+                Do you want more? </div>
+
+            <div class="header-buttony">Explore all events</div>
+        </footer>
+
+
+
+    </div>
+    <!-- конец блока 5 -->
+
+
+
 </body>
 
 </html>

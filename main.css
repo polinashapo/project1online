@@ -1,0 +1,86 @@
+.second {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "nav banner article ads"
+        "footer footer footer footer";
+    grid-template-rows: 20% 1fr 20%;
+    grid-template-columns: 18% 37% 27% 18%;
+    grid-gap: 0px;
+    height: 80vh;
+    margin: 0;
+}
+
+
+.pageHeader {
+    grid-area: header;
+}
+
+.pageFooter {
+    grid-area: footer;
+}
+
+.bannerUser {
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+.banner {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.mainArticle {
+    padding-top: 0px;
+    grid-area: article;
+    color: #424551;
+}
+
+
+
+
+
+.mainNav {
+    padding-left: 0%;
+    grid-area: nav;
+   
+}
+
+.dots {
+    max-width: 50%;
+    object-fit: cover;
+
+}
+
+.btnMore {
+    grid-area: article;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+
+
+}
+
+.list {
+    list-style-image: url(assets/images/vector.svg);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.siteAds {
+    grid-area: ads;
+   
+}

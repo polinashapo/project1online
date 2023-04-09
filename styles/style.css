@@ -1,0 +1,246 @@
+.second {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "nav banner article ads"
+        "footer footer footer footer";
+    grid-template-columns: 18% 37% 27% 18%;
+    grid-template-rows: 20% 1fr 20%;
+    grid-gap: 0px;
+    height: 80vh;
+    margin: 0;
+}
+
+
+.pageHeader {
+    grid-area: header;
+}
+
+.pageFooter {
+    grid-area: footer;
+}
+
+.bannerUser {
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+.banner {
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.mainArticle {
+    padding-top: 0px;
+    grid-area: article;
+    color: #424551;
+
+}
+
+
+
+.mainNav {
+    padding-left: 0%;
+    grid-area: nav;
+
+}
+
+.dots {
+    max-width: 50%;
+    object-fit: cover;
+
+}
+
+.btnMore {
+    grid-area: article;
+    background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 44px;
+
+
+}
+
+.list {
+    list-style-image: url("marker.svg");
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.siteAds {
+    grid-area: ads;
+
+}
+
+/* Пятый блок */
+.fifth {
+    background: linear-gradient(55.95deg, rgba(255, 63, 58, 0.2), rgba(247, 94, 5, 0.2));
+    font-family: 'Lato';
+    color: #1E212C;
+    text-align: center;
+    height: 92vh;
+    /* display: grid;
+    grid-template-areas:
+        "events"
+        "anons"
+        "anons"
+        "anons"
+        "wantMore";
+    /* grid-template-columns: 18% 37% 27% 18%; */
+    /* grid-template-rows: 18% 1fr 1% 1fr 1% 1fr 20%;
+    grid-gap: 3px;
+   
+    margin: 0; */
+}
+
+.events {
+    padding-top: 20px;
+    font-family: 'Lato';
+}
+
+.anonses {
+    display: grid;
+    padding-top: 17px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+}
+
+
+.anons {
+    background-color: #fff;
+    display: grid;
+    grid-template-areas:
+        "nm div div div"
+        "nm div div div";
+    grid-template-columns: 10% 10% 1fr 17%;
+    grid-template-rows: 1fr 1fr;
+    width: 1230px;
+    height: 126px;
+    left: calc(50% - 1230px/2);
+    top: 232px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.number {
+    color: #FF3F3A;
+    grid-area: nm;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 130%;
+    vertical-align: middle;
+    margin-top: 35px;
+}
+
+.month {
+    padding-top: 32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.time {
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    vertical-align: middle;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.info {
+    padding-top: 32px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.view-button {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(55.95deg, rgba(255, 63, 58, 1), rgba(247, 94, 5, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    border-radius: 4px;
+    width: 10em;
+    height: 3em;
+    vertical-align: middle;
+}
+
+.view-button:hover {
+    background-color: transparent;
+}
+
+
+.online {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    /* vertical-align: middle; */
+    text-align: left;
+    margin-top: -15px;
+
+}
+
+.exploreEvents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.wantMore {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 0%;
+    margin-left: 60%;
+    margin-right: 3%;
+    margin-top: 7%;
+}
+
+
+.header-buttony {
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    background: linear-gradient(55.95deg, rgba(255, 63, 58, 1), rgba(247, 94, 5, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 4px;
+    width: 10em;
+    height: 3em;
+    vertical-align: middle;
+}
